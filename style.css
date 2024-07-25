@@ -1,0 +1,37 @@
+body { font-family: Arial, sans-serif;
+     background-color: rgb(169, 247, 247);
+    }
+
+ul { list-style-type: none;
+     padding: 0;
+     margin-bottom: 100px; 
+    }
+
+li { padding: 8px; 
+    margin-bottom: 10px; 
+    background-color: #f4f4f4;
+     border-radius: 5px;
+     width: fit-content;
+     }
+
+input { padding: 10px; 
+    width: 60%; 
+    margin-right: 10px; 
+}
+
+button { padding: 10px; }
+
+form{  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{ 
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+margin-bottom: 30px;
+}
